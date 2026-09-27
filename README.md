@@ -1,5 +1,42 @@
-# Vue 3 + Vite
+# Vue Basic Template
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A reusable Vue 3 template for CITP 4316 assignments.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Technologies
+
+- Vue 3
+- Vite
+- Vue Router
+- Tailwind CSS
+- ESLint
+- Prettier
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Available Commands
+
+- `npm run dev` — Start the development server.
+- `npm run build` — Create a production build.
+- `npm run preview` — Preview the production build.
+- `npm run lint` — Check for linting issues.
+- `npm run format` — Format project files.
+- `npm run format:check` — Check formatting.
+
+## Project Structure
+
+- `src/components/` — Reusable components.
+- `src/views/` — Application pages.
+- `src/router.js` — Vue Router configuration.
+- `src/assets/` — Styles and other assets.
